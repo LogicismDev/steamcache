@@ -10,6 +10,7 @@ This container is designed to support any game that uses HTTP. This makes it sui
 
  - Steam (Valve)
  - Epic Games
+ - Nintendo (Wii U, 3DS)
  - Battle.net (Blizzard)
  - Origin (EA Games)
  - League of Legends (Riot Games)
