@@ -22,7 +22,7 @@ Start by installing [docker](https://docs.docker.com/engine/installation/) and [
 
 Clone this repository and the submodules.
 
-    git clone --recursive https://github.com/kixelated/steamcache.git
+    git clone --recursive https://github.com/LogicismDev/steamcache.git
 
 Open up `docker-compose.override.yml`. You will need to change `LANCACHE_IP` from the default `10.0.0.3` to the host's IP address.
 
@@ -60,13 +60,13 @@ Steamcache can run on commodity hardware and has fairly low resource usage. You 
 
 Docker Compose is not required but makes it very easy to run all of the services on the same host. Check out the [documentation](https://docs.docker.com/compose/compose-file) and add any overrides to `docker-compose.override.yml` (or just `docker-compose.yml`).
 
-Steamcache uses Google DNS (8.8.8.8 and 8.8.4.4) by default but you can specify your own or remove the override altogether. Just make sure that steamcache doesn't try to use itself as the DNS server. Repeat this configuration for all services (http,dns,sni):
+Steamcache uses Cloudflare DNS (1.1.1.1 and 1.0.0.1) by default but you can specify your own or remove the override altogether. Just make sure that steamcache doesn't try to use itself as the DNS server. Repeat this configuration for all services (http,dns,sni):
 
     services:
       http:
         dns:
-          - 8.8.8.8
-          - 8.8.4.4
+          - 1.1.1.1
+          - 1.0.0.1
 
 
 The cache is stored as a Docker data volume in the docker installation directory. If you want to use another drive, mount it, delete the existing volume with `docker-compose down -v`, and add these driver options:
