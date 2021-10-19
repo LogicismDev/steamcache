@@ -9,6 +9,7 @@ The primary use case is gaming events, such as LAN parties, which need to be abl
 This container is designed to support any game that uses HTTP. This makes it suitable for:
 
  - Steam (Valve)
+ - Epic Games
  - Battle.net (Blizzard)
  - Origin (EA Games)
  - League of Legends (Riot Games)
