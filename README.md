@@ -13,7 +13,7 @@ This container is designed to support any game that uses HTTP. This makes it sui
  - Nintendo (Wii U, 3DS)
  - Battle.net (Blizzard)
  - Origin (EA Games)
- - League of Legends (Riot Games)
+ - Riot Games
  - Frontier Launchpad
  - Uplay (Ubisoft)
  - Windows Updates
