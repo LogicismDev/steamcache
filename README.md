@@ -14,6 +14,7 @@ This container is designed to support any game that uses HTTP. This makes it sui
  - Battle.net (Blizzard)
  - Origin (EA Games)
  - League of Legends (Riot Games)
+ - Rockstar Games
  - Frontier Launchpad
  - Uplay (Ubisoft)
  - Windows Updates
